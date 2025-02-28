@@ -1,0 +1,309 @@
+[{
+  "_id": "1",
+  "type": "Initial Dose",
+  "name_zh": "腺苷",
+  "name": "",
+  "administration_method_id": "17",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.1",
+  "maximum": 6
+},
+{
+  "_id": "2",
+  "type": "Initial Dose",
+  "name_zh": "胺碘酮",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "al::{weight} * 5",
+  "maximum": 300
+},
+{
+  "_id": "3",
+  "type": "Initial Dose",
+  "name_zh": "氯化钙",
+  "name": "",
+  "administration_method_id": "1::7",
+  "unit": "mg",
+  "dose": "al::{weight} * 20",
+  "maximum": 2000,
+  "remark": "may consider repeat dose in 10 minutes if clinically necessary"
+},
+{
+  "_id": "4",
+  "type": "Initial Dose",
+  "name_zh": "肾上腺素",
+  "name": "",
+  "administration_method_id": "2",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.01",
+  "remark": "1mEq/kg(5%碳酸氢钠1.7ml/kg)稀释成等渗液缓慢输注"
+},
+{
+  "_id": "5",
+  "type": "Initial Dose",
+  "name_zh": "碳酸氢钠",
+  "name": "",
+  "administration_method_id": "1::7",
+  "unit": "mEq",
+  "dose": "al::{weight} * 1"
+},
+{
+  "_id": "6",
+  "type": "Dose",
+  "name_zh": "沙丁胺醇",
+  "name": "",
+  "administration_method_id": "19",
+  "unit": "mg",
+  "dose": "al::IF {weight} >= 10 GET 5 ELSE 2.5"
+},
+{
+  "_id": "7",
+  "type": "Dose",
+  "name_zh": "25%葡萄糖",
+  "name": "",
+  "administration_method_id": "20",
+  "unit": "ML",
+  "range": "{weight} < 15",
+  "dose": "al::{weight} * 2"
+},
+{
+  "_id": "8",
+  "type": "Dose",
+  "name_zh": "50%葡萄糖",
+  "name": "",
+  "administration_method_id": "20",
+  "unit": "ML",
+  "range": "{weight} >= 12",
+  "dose": "al::{weight} * 1"
+},
+{
+  "_id": "9",
+  "type": "Dose",
+  "name_zh": "苯海拉明",
+  "name": "",
+  "administration_method_id": "1::2",
+  "unit": "mg",
+  "dose": "al::{weight} * 1",
+  "maximum": 25
+},
+{
+  "_id": "10",
+  "type": "Dose",
+  "name_zh": "肾上腺素(IM)",
+  "name": "",
+  "administration_method_id": "2",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.01"
+},
+{
+  "_id": "11",
+  "type": "Dose",
+  "name_zh": "肾上腺素(HHN)",
+  "name": "",
+  "administration_method_id": "19",
+  "unit": "mg",
+  "dose": "al::IF {weight} >= 10 GET 5 ELSE GET 2.5"
+},
+{
+  "_id": "12",
+  "type": "Dose",
+  "name_zh": "胰高血糖素",
+  "name": "",
+  "administration_method_id": "2",
+  "unit": "mg",
+  "dose": 1
+},
+{
+  "_id": "13",
+  "type": "Dose",
+  "name_zh": "吗啡",
+  "name": "",
+  "administration_method_id": "1::2",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.1"
+},
+{
+  "_id": "14",
+  "type": "Dose",
+  "name_zh": "咪达唑仑",
+  "name": "",
+  "administration_method_id": "1::2::7",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.1"
+},
+{
+  "_id": "15",
+  "type": "Dose",
+  "name_zh": "纳洛酮",
+  "name": "",
+  "administration_method_id": "1::2::7",
+  "unit": "mg",
+  "dose": "al::{weight} * 0.1",
+  "maximum": 2
+},
+{
+  "_id": "16",
+  "type": "Dose",
+  "name_zh": "生理盐水",
+  "name": "",
+  "administration_method_id": "21",
+  "unit": "ML",
+  "dose": "al::{weight} * 20",
+  "maximum": 500
+},
+{
+  "_id": "17",
+  "type": "Dose",
+  "name_zh": "昂丹司琼",
+  "name": "",
+  "administration_method_id": "1::2::22",
+  "unit": "mg",
+  "range": "{weight} >= 15",
+  "dose": 4
+},
+{
+  "_id": "18",
+  "type": "Dose",
+  "name_zh": "阿托品",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "range": "{weight} >= 6",
+  "dose": "al::{weight} * 0.02",
+  "maximum": 5
+},
+{
+  "_id": "19",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "呋塞米 Furosemide",
+  "name": "",
+  "administration_method_id": "1::23",
+  "unit": "mg",
+  "dose": "range::{weight} * 1 TO {weight} * 2",
+  "maximum": 6,
+  "remark": "Neonates (<28 days): 0.5-1 mg/kg IV/IM q8-24hr; individual dose not to exceed 2 mg/kg"
+},
+{
+  "_id": "20",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "地西泮 Diazepam",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::{weight} * 0.04 TO {weight} * 0.2",
+  "remark": "<6 months: Not recommended. 5-10 mg or 0.04-0.2 mg/kg IV/IM q3-4hr; no more than 0.6 mg/kg within 8 hours; respiratory assistance should be available"
+},
+{
+  "_id": "21",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "多巴胺 Dopamine",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mcg",
+  "dose": "range::{weight} * 2 TO {weight} * 20",
+  "remark": "1-5 mcg/kg/min IV, increased to 5-20 mcg/kg/min; not to exceed 50 mcg/kg/min"
+},
+{
+  "_id": "22",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "硫酸镁 Magnesium Sulfate",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::{weight} * 25 TO {weight} * 50",
+  "remark": "IV/IM: 25-50 mg/kg q4-6hr for 3-4 doses PRN"
+},
+{
+  "_id": "23",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "地塞米松 Dexamethasone",
+  "name": "",
+  "administration_method_id": "2::23",
+  "unit": "mg",
+  "dose": "range::{weight} * 0.1 TO {weight} * 0.3",
+  "remark": "一次 0.1~0.3mg/kg/次， 一日 1~2 次。"
+},
+{
+  "_id": "24",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "氢化可的松 Hydrocortisone",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::50 TO 100",
+  "remark": "1mon-1yr：25 mg IV bolus, then 50 mg/m²/day by continuous IV drip or divided q6-8hr; Alternative: 1-2 mg/kg IV bolus, then 25-150 mg/day IV divided q6-8 hr. 1-12yr：50-100 mg rapid IV bolus, then 50 mg/m²/day by continuous IV drip or divided q6-8hr; Alternative: 1-2 mg/kg IV bolus, then 150-250 mg/day divided q6-8hr."
+},
+{
+  "_id": "25",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "注射用甲泼尼龙琥珀酸钠（甲强龙）40MG Methylprednisolone Sodium Succinate, brand name: Solu-Medrol",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::{weight} * 1 TO {weight} * 2",
+  "remark": "<12 years: 1-2 mg/kg IV/IM in 2 divided doses until peak expiratory flow is 70% of predicted or personal best; not to exceed 60 mg/day"
+},
+{
+  "_id": "26",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "葡萄糖酸钙 Calcium Gluconate",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::5 TO 10",
+  "remark": "Infants/children: 200-500 mg/kg/day IV by continuous infusion or divided q6hr as intermittent infusions"
+},
+{
+  "_id": "27",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "复方氯化钠 Compound Sodium Chloride",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "ML"
+},
+{
+  "_id": "28",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "葡萄糖氯化钠 Glucose and Sodium Chloride",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "ML"
+},
+{
+  "_id": "29",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "利多卡因(麻醉)",
+  "name": "",
+  "administration_method_id": "24",
+  "unit": "mg",
+  "remark": "表面麻醉、神经阻滞麻醉及硬膜外麻醉：用量随个体而异， 一次给药总量不得超过4.0~4.5mg/kg（常用 0.25%~0.5%溶液，特殊情况才用 1.0%溶液）。新生儿、早产儿慎用。"
+},
+{
+  "_id": "30",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "利多卡因(IV)",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mg",
+  "dose": "range::{weight} * 1 TO {weight} * 3",
+  "remark": "治疗心律失常：一次 1~3mg/kg，每 10~15分钟一次，总量不超过 5mg/kg"
+},
+{
+  "_id": "31",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "硝酸甘油注射液",
+  "name": "",
+  "administration_method_id": "1",
+  "unit": "mcg",
+  "dose": 0.5,
+  "remark": "0.5mcg/min"
+},
+{
+  "_id": "32",
+  "type": "Rescue Vehicle Medicines",
+  "name_zh": "硝酸甘油片Nitroglycerin Tablets",
+  "name": "",
+  "administration_method_id": "",
+  "unit": "mg"
+}]

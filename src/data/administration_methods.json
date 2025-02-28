@@ -1,0 +1,192 @@
+[{
+  "_id": "1",
+  "method_name_zh": "静脉注射",
+  "method_name": "Intravenous Injection",
+  "abbreviation": "IV",
+  "description": "直接注入静脉，快速起效",
+  "category_id": "2"
+},
+{
+  "_id": "2",
+  "method_name_zh": "肌肉注射",
+  "method_name": "Intramuscular Injection",
+  "abbreviation": "IM",
+  "description": "注入肌肉组织，吸收速度中等",
+  "category_id": "2"
+},
+{
+  "_id": "3",
+  "method_name_zh": "皮下注射",
+  "method_name": "Subcutaneous Injection",
+  "abbreviation": "SC",
+  "description": "注入皮下组织，吸收较慢",
+  "category_id": "2"
+},
+{
+  "_id": "4",
+  "method_name_zh": "皮内注射",
+  "method_name": "Intradermal Injection",
+  "abbreviation": "ID",
+  "description": "注入皮肤表层，吸收最慢",
+  "category_id": "2"
+},
+{
+  "_id": "5",
+  "method_name_zh": "动脉注射",
+  "method_name": "Intra-arterial Injection",
+  "abbreviation": "IA",
+  "description": "直接注入动脉，用于局部治疗",
+  "category_id": "2"
+},
+{
+  "_id": "6",
+  "method_name_zh": "舌下给药",
+  "method_name": "Sublingual Administration",
+  "abbreviation": "Sublingual",
+  "description": "药物置于舌下，快速吸收",
+  "category_id": "3"
+},
+{
+  "_id": "7",
+  "method_name_zh": "鼻腔给药",
+  "method_name": "Intranasal Administration",
+  "abbreviation": "IN",
+  "description": "通过鼻腔喷雾或滴剂给药",
+  "category_id": "3"
+},
+{
+  "_id": "8",
+  "method_name_zh": "眼用给药",
+  "method_name": "Ophthalmic Administration",
+  "abbreviation": "Ophthalmic",
+  "description": "滴眼液或眼膏，局部治疗眼部疾病",
+  "category_id": "3"
+},
+{
+  "_id": "9",
+  "method_name_zh": "耳用给药",
+  "method_name": "Otic Administration",
+  "abbreviation": "Otic",
+  "description": "滴耳液，局部治疗耳部疾病",
+  "category_id": "3"
+},
+{
+  "_id": "10",
+  "method_name_zh": "直肠给药",
+  "method_name": "Rectal Administration",
+  "abbreviation": "Rectal",
+  "description": "通过肛门插入栓剂或灌肠剂",
+  "category_id": "3"
+},
+{
+  "_id": "11",
+  "method_name_zh": "吸入给药",
+  "method_name": "Inhalation Administration",
+  "abbreviation": "Inhalation",
+  "description": "通过呼吸道吸入药物",
+  "category_id": "4"
+},
+{
+  "_id": "12",
+  "method_name_zh": "透皮贴剂",
+  "method_name": "Transdermal Patch",
+  "abbreviation": "Transdermal",
+  "description": "通过皮肤吸收药物，缓慢持续释放",
+  "category_id": "5"
+},
+{
+  "_id": "13",
+  "method_name_zh": "局部涂抹",
+  "method_name": "Topical Application",
+  "abbreviation": "Topical",
+  "description": "直接涂抹于皮肤或黏膜表面",
+  "category_id": "6"
+},
+{
+  "_id": "14",
+  "method_name_zh": "关节内注射",
+  "method_name": "Intra-articular Injection",
+  "abbreviation": "Intra-articular",
+  "description": "注入关节腔，局部治疗关节疾病",
+  "category_id": "7"
+},
+{
+  "_id": "15",
+  "method_name_zh": "椎管内给药",
+  "method_name": "Intrathecal Administration",
+  "abbreviation": "Intrathecal",
+  "description": "注入脊髓腔，直接作用于中枢神经系统",
+  "category_id": "7"
+},
+{
+  "_id": "16",
+  "method_name_zh": "腹腔内给药",
+  "method_name": "Intraperitoneal Administration",
+  "abbreviation": "Intraperitoneal",
+  "description": "注入腹腔，用于腹膜透析或化疗",
+  "category_id": "7"
+},
+{
+  "_id": "17",
+  "method_name_zh": "快速静脉注射",
+  "method_name": "Rapid Intravenous Injection",
+  "abbreviation": "Rapid IV",
+  "description": "药物通过静脉快速注入体内",
+  "category_id": "2"
+},
+{
+  "_id": "18",
+  "method_name_zh": "口服给药",
+  "method_name": "Oral Administration",
+  "abbreviation": "OA",
+  "description": "通过口腔吞服药物",
+  "category_id": "1"
+},
+{
+  "_id": "19",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "HHN",
+  "description": "",
+  "category_id": ""
+},
+{
+  "_id": "20",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "slow IV",
+  "description": "",
+  "category_id": ""
+},
+{
+  "_id": "21",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "IV Bolus",
+  "description": "",
+  "category_id": ""
+},
+{
+  "_id": "22",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "ODT",
+  "description": "",
+  "category_id": ""
+},
+{
+  "_id": "23",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "IVGTT",
+  "description": "",
+  "category_id": ""
+},
+{
+  "_id": "24",
+  "method_name_zh": "",
+  "method_name": "",
+  "abbreviation": "麻醉",
+  "description": "",
+  "category_id": ""
+}]

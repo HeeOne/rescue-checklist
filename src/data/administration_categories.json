@@ -1,0 +1,42 @@
+[{
+  "_id": "1",
+  "category_name_zh": "口服给药",
+  "category_name": "Oral Administration",
+  "description": "通过口腔吞服药物"
+},
+{
+  "_id": "2",
+  "category_name_zh": "注射给药",
+  "category_name": "Parenteral Administration",
+  "description": "通过注射方式给药"
+},
+{
+  "_id": "3",
+  "category_name_zh": "黏膜给药",
+  "category_name": "Mucosal Administration",
+  "description": "通过黏膜吸收药物"
+},
+{
+  "_id": "4",
+  "category_name_zh": "吸入给药",
+  "category_name": "Inhalation Administration",
+  "description": "通过呼吸道吸入药物"
+},
+{
+  "_id": "5",
+  "category_name_zh": "透皮给药",
+  "category_name": "Transdermal Administration",
+  "description": "通过皮肤吸收药物"
+},
+{
+  "_id": "6",
+  "category_name_zh": "局部给药",
+  "category_name": "Topical Administration",
+  "description": "直接涂抹于皮肤或黏膜表面"
+},
+{
+  "_id": "7",
+  "category_name_zh": "其他给药方式",
+  "category_name": "Other Administration Routes",
+  "description": "特殊给药方式"
+}]
